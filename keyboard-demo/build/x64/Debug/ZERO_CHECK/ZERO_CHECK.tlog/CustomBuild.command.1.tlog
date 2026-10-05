@@ -1,0 +1,10 @@
+^C:\PROJECTS\KEYBOARD-DEMO\BUILD\CMAKEFILES\36DC304D2E2657EB175FDD127C7CC09F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/keyboard-demo -BC:/Projects/keyboard-demo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/keyboard-demo/build/KeyboardDemo.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

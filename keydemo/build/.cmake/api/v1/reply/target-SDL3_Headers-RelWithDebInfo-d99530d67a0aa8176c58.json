@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"vendored/SDL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4260,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "SDL3_Headers::@8fb704815aaca498baa2",
+	"name" : "SDL3_Headers",
+	"paths" : 
+	{
+		"build" : "vendored/SDL",
+		"source" : "vendored/SDL"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/keydemo/build/cmake_install.cmake",
+		"C:/Projects/keydemo/build/vendored/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

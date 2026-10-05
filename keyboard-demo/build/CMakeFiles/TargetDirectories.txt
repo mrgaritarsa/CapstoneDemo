@@ -1,0 +1,10 @@
+C:/Projects/keyboard-demo/build/CMakeFiles/keyboard_demo.dir
+C:/Projects/keyboard-demo/build/CMakeFiles/INSTALL.dir
+C:/Projects/keyboard-demo/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/keyboard-demo/build/CMakeFiles/ZERO_CHECK.dir
+C:/Projects/keyboard-demo/build/external/glfw/CMakeFiles/uninstall.dir
+C:/Projects/keyboard-demo/build/external/glfw/CMakeFiles/INSTALL.dir
+C:/Projects/keyboard-demo/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Projects/keyboard-demo/build/external/glfw/src/CMakeFiles/glfw.dir
+C:/Projects/keyboard-demo/build/external/glfw/src/CMakeFiles/update_mappings.dir
+C:/Projects/keyboard-demo/build/external/glfw/src/CMakeFiles/INSTALL.dir

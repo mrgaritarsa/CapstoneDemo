@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2AD9847B-142B-3C57-832E-887D479137C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\keydemo\vendored\SDL\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/keydemo/vendored/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/keydemo -BC:/Projects/keydemo/build --check-stamp-file C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCommon.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\keydemo\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;C:\Projects\keydemo\build\CMakeFiles\cmake.verify_globs;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\SDL_build_config.h.intermediate;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\git-data\grabRef.cmake;C:\Projects\keydemo\vendored\SDL\.git\HEAD;C:\Projects\keydemo\vendored\SDL\.git\refs\heads\main;C:\Projects\keydemo\vendored\SDL\cmake\3rdparty.cmake;C:\Projects\keydemo\vendored\SDL\cmake\FindLibUSB.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\PreseedDOSCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedEmscriptenCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedHaikuCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedMSVCCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedNokiaNGageCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedOpenHarmonyCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\SDL3Config.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\macros.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlchecks.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcommands.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcompilers.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcpu.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlmanpages.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlplatform.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_build_config.h.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_revision.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/keydemo/vendored/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/keydemo -BC:/Projects/keydemo/build --check-stamp-file C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCommon.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\keydemo\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;C:\Projects\keydemo\build\CMakeFiles\cmake.verify_globs;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\SDL_build_config.h.intermediate;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\git-data\grabRef.cmake;C:\Projects\keydemo\vendored\SDL\.git\HEAD;C:\Projects\keydemo\vendored\SDL\.git\refs\heads\main;C:\Projects\keydemo\vendored\SDL\cmake\3rdparty.cmake;C:\Projects\keydemo\vendored\SDL\cmake\FindLibUSB.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\PreseedDOSCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedEmscriptenCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedHaikuCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedMSVCCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedNokiaNGageCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedOpenHarmonyCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\SDL3Config.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\macros.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlchecks.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcommands.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcompilers.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcpu.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlmanpages.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlplatform.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_build_config.h.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_revision.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Projects/keydemo/vendored/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/keydemo -BC:/Projects/keydemo/build --check-stamp-file C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCommon.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\keydemo\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;C:\Projects\keydemo\build\CMakeFiles\cmake.verify_globs;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\SDL_build_config.h.intermediate;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\git-data\grabRef.cmake;C:\Projects\keydemo\vendored\SDL\.git\HEAD;C:\Projects\keydemo\vendored\SDL\.git\refs\heads\main;C:\Projects\keydemo\vendored\SDL\cmake\3rdparty.cmake;C:\Projects\keydemo\vendored\SDL\cmake\FindLibUSB.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\PreseedDOSCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedEmscriptenCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedHaikuCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedMSVCCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedNokiaNGageCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedOpenHarmonyCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\SDL3Config.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\macros.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlchecks.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcommands.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcompilers.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcpu.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlmanpages.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlplatform.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_build_config.h.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_revision.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Projects/keydemo/vendored/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/keydemo -BC:/Projects/keydemo/build --check-stamp-file C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCommon.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Projects\keydemo\build\CMakeFiles\4.4.3\CMakeCXXCompiler.cmake;C:\Projects\keydemo\build\CMakeFiles\cmake.verify_globs;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\SDL_build_config.h.intermediate;C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\git-data\grabRef.cmake;C:\Projects\keydemo\vendored\SDL\.git\HEAD;C:\Projects\keydemo\vendored\SDL\.git\refs\heads\main;C:\Projects\keydemo\vendored\SDL\cmake\3rdparty.cmake;C:\Projects\keydemo\vendored\SDL\cmake\FindLibUSB.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake;C:\Projects\keydemo\vendored\SDL\cmake\GetGitRevisionDescription.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\PreseedDOSCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedEmscriptenCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedHaikuCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedMSVCCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedNokiaNGageCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\PreseedOpenHarmonyCache.cmake;C:\Projects\keydemo\vendored\SDL\cmake\SDL3Config.cmake.in;C:\Projects\keydemo\vendored\SDL\cmake\macros.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlchecks.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcommands.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcompilers.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlcpu.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlmanpages.cmake;C:\Projects\keydemo\vendored\SDL\cmake\sdlplatform.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_build_config.h.cmake;C:\Projects\keydemo\vendored\SDL\include\build_config\SDL_revision.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\keydemo\build\vendored\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\keydemo\build\ZERO_CHECK.vcxproj">
+      <Project>{540A907E-0B12-3B9B-B0FD-71D0AE18BFE2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\keydemo\build\vendored\SDL\SDL3-static.vcxproj">
+      <Project>{8FFAD3CD-5E4B-3BEC-80A8-5288C37379A7}</Project>
+      <Name>SDL3-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\keydemo\build\vendored\SDL\SDL3_test.vcxproj">
+      <Project>{156ABFEB-4CC5-367E-BC4B-FBF4F2746A6C}</Project>
+      <Name>SDL3_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\PROJECTS\KEYBOARD-DEMO\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/keyboard-demo -BC:/Projects/keyboard-demo/build --check-stamp-file C:/Projects/keyboard-demo/build/external/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

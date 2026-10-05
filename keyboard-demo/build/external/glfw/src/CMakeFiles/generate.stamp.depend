@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/Projects/keyboard-demo/external/glfw/CMake/glfw3.pc.in
+C:/Projects/keyboard-demo/external/glfw/src/CMakeLists.txt

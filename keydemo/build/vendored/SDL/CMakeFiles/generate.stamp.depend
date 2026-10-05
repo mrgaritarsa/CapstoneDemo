@@ -1,0 +1,73 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLanguage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckCommon.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Linker/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake
+C:/Projects/keydemo/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake
+C:/Projects/keydemo/build/CMakeFiles/cmake.verify_globs
+C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/SDL_build_config.h.intermediate
+C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/git-data/grabRef.cmake
+C:/Projects/keydemo/vendored/SDL/.git/HEAD
+C:/Projects/keydemo/vendored/SDL/.git/refs/heads/main
+C:/Projects/keydemo/vendored/SDL/CMakeLists.txt
+C:/Projects/keydemo/vendored/SDL/cmake/3rdparty.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/FindLibUSB.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/GetGitRevisionDescription.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/GetGitRevisionDescription.cmake.in
+C:/Projects/keydemo/vendored/SDL/cmake/PreseedDOSCache.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/PreseedEmscriptenCache.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/PreseedHaikuCache.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/PreseedMSVCCache.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/PreseedNokiaNGageCache.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/PreseedOpenHarmonyCache.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/SDL3Config.cmake.in
+C:/Projects/keydemo/vendored/SDL/cmake/macros.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/sdlchecks.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/sdlcommands.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/sdlcompilers.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/sdlcpu.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/sdlmanpages.cmake
+C:/Projects/keydemo/vendored/SDL/cmake/sdlplatform.cmake
+C:/Projects/keydemo/vendored/SDL/include/build_config/SDL_build_config.h.cmake
+C:/Projects/keydemo/vendored/SDL/include/build_config/SDL_revision.h.cmake

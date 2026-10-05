@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/keyboard-demo/build/cmake_install.cmake",
+		"C:/Projects/keyboard-demo/build/external/glfw/cmake_install.cmake",
+		"C:/Projects/keyboard-demo/build/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

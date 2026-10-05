@@ -1,0 +1,684 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@8fb704815aaca498baa2",
+					"jsonFile" : "target-Git__Git-Debug-c71bce600ee05c45c4e4.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-collector-Debug-4f2e926de67fbb509732.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_Headers-Debug-d99530d67a0aa8176c58.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-collector-Debug-4d424be4502a38f0927e.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : "vendored/SDL",
+					"jsonFile" : "directory-vendored.SDL-Debug-eb3f510d982853bb525c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendored/SDL",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "keydemo",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-97de6bc873c073d23f2a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@8fb704815aaca498baa2",
+					"jsonFile" : "target-ALL_BUILD-Debug-9505674c83ffc9ae0f04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-static::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-static-Debug-390823988a960524173e.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-Debug-b27d1732050bf30bb002.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-e8a03dcc4ebbcf9af836.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keydemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keydemo-Debug-2ff8c2366766b13d6564.json",
+					"name" : "keydemo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@8fb704815aaca498baa2",
+					"jsonFile" : "target-Git__Git-Release-c71bce600ee05c45c4e4.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-collector-Release-4f2e926de67fbb509732.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_Headers-Release-d99530d67a0aa8176c58.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-collector-Release-4d424be4502a38f0927e.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : "vendored/SDL",
+					"jsonFile" : "directory-vendored.SDL-Release-eb3f510d982853bb525c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendored/SDL",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "keydemo",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-97de6bc873c073d23f2a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@8fb704815aaca498baa2",
+					"jsonFile" : "target-ALL_BUILD-Release-9505674c83ffc9ae0f04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-static::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-static-Release-ae3874388d4e73e4428a.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-Release-b523142ec350242e4bb7.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-e8a03dcc4ebbcf9af836.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keydemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keydemo-Release-6a7acebb7fa6cdaf710b.json",
+					"name" : "keydemo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@8fb704815aaca498baa2",
+					"jsonFile" : "target-Git__Git-MinSizeRel-c71bce600ee05c45c4e4.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-collector-MinSizeRel-4f2e926de67fbb509732.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_Headers-MinSizeRel-d99530d67a0aa8176c58.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-collector-MinSizeRel-4d424be4502a38f0927e.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : "vendored/SDL",
+					"jsonFile" : "directory-vendored.SDL-MinSizeRel-eb3f510d982853bb525c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendored/SDL",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "keydemo",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-97de6bc873c073d23f2a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@8fb704815aaca498baa2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9505674c83ffc9ae0f04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-static::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-static-MinSizeRel-e8eb476f6bbab8f01a36.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-MinSizeRel-756b2232eaba080ac781.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-e8a03dcc4ebbcf9af836.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keydemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keydemo-MinSizeRel-09187bbcf760c6707b0e.json",
+					"name" : "keydemo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Git::Git::@8fb704815aaca498baa2",
+					"jsonFile" : "target-Git__Git-RelWithDebInfo-c71bce600ee05c45c4e4.json",
+					"name" : "Git::Git",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-collector-RelWithDebInfo-4f2e926de67fbb509732.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_Headers-RelWithDebInfo-d99530d67a0aa8176c58.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-collector-RelWithDebInfo-4d424be4502a38f0927e.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"build" : "vendored/SDL",
+					"jsonFile" : "directory-vendored.SDL-RelWithDebInfo-eb3f510d982853bb525c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendored/SDL",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "keydemo",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-97de6bc873c073d23f2a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@8fb704815aaca498baa2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9505674c83ffc9ae0f04.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-static::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3-static-RelWithDebInfo-018b7a731187a109e5e4.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@8fb704815aaca498baa2",
+					"jsonFile" : "target-SDL3_test-RelWithDebInfo-0c6e4603cf53ed20ae06.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-e8a03dcc4ebbcf9af836.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keydemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keydemo-RelWithDebInfo-5c472e4b1e034fc1a5c3.json",
+					"name" : "keydemo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projects/keydemo/build",
+		"source" : "C:/Projects/keydemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

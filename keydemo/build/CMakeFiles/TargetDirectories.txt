@@ -1,0 +1,6 @@
+C:/Projects/keydemo/build/CMakeFiles/keydemo.dir
+C:/Projects/keydemo/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/keydemo/build/CMakeFiles/ZERO_CHECK.dir
+C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/SDL3-static.dir
+C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+C:/Projects/keydemo/build/vendored/SDL/CMakeFiles/ALL_BUILD.dir
